@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='index_style.css') }}">
+</head>
+<body>
+    <div class="welcome-text">Ласкаво просимо!</div>
+
+    <div class="already-have-account">
+        <p>Я вже маю акаунт: <a href="{{ url_for('login') }}">Login</a></p>
+    </div>
+
+    <div class="create-an-account">
+        <p>Я не маю акаунта: <a href="{{ url_for('register') }}">Register</a></p>
+    </div>
+</body>
+</html>

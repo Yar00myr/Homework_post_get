@@ -1,0 +1,44 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling */
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #ae47dd;
+    color: #333;
+    padding: 20px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Висота вікна перегляду */
+}
+
+.already-have-account,
+.create-an-account {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.already-have-account p,
+.create-an-account p {
+    font-size: 18px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.already-have-account a,
+.create-an-account a {
+    color: #ffcc00;
+    text-decoration: none;
+}
+
+.already-have-account a:hover,
+.create-an-account a:hover {
+    text-decoration: underline;
+}
